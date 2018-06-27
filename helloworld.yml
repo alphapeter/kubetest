@@ -10,5 +10,5 @@ spec:
     image: tutum/hello-world
     ports:
     - name: helloworld-port
-    - containerPort: 80
+      containerPort: 80
 
