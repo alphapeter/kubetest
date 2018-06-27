@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+ name: helloworld
+ labels:
+  app: helloworld
+spec:
+ containers:
+  - name: k8s-demo
+    image: tutum/hello-world
+    ports:
+    - name: helloworld-port
+    - containerPort: 80
+
